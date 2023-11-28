@@ -1,0 +1,36 @@
+#snakeboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+#score {
+    position: absolute;
+    top: 22%;
+    left: 70%;
+    font-size: 80px;
+}
+
+#startGameBtn {
+    position: absolute;
+    top: 85%;
+    left: 46.5%;
+    height: 70px;
+    width: 110px;
+    border-radius: 10%;
+    border: 1px solid #c4c4c4;
+    font-size: 1.5rem;
+    color: #333;
+    filter: drop-shadow(2px 2px 2px grey);
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, .04));
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .05), inset 0 1px 0 0 rgba(255, 255, 255, .45), inset 0 -1px 0 0 rgba(255, 255, 255, .15), 0 1px 0 0 rgba(255, 255, 255, .15);
+    text-shadow: 0 1px rgba(255, 255, 255, .4);
+}
+
+#startGameBtn:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 0px #fff);
+}
